@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Page Title</title>
-</head>
+  <head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 <body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
+    <ul>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#appointments">Appointments</a></li>
+        <li><a href="#patients">Patients</a></li>
+        <li><a href="#lab">Laboratory</a></li>
+        <li><a href="#lab">About</a></li>
+        <li><a href="#lab">FAQ</a></li>
+      </ul>
+    <div class="grid-container">
+        <a href="/appointments.html">
+        <div class="grid-item">
+            <div class="grid-item-content">
+                <div><img src="img/people.png" alt="people icon" width="150" height="150"/></div>
+                <div style="padding-left: 50px">
+                    <h5>Appointments</h5>
+                    <h1>25</h1>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a href="/patients.html">
+        <div class="grid-item">
+                <div class="grid-item-content">
+                    <div><img src="img/patient.jpg.png" alt="patient icon" width="155" height="155"/></div>
+                    <div style="padding-left: 50px">
+                        <h5>Patients</h5>
+                        <h1>19</h1>
+                </div>
+            </div>
+        </div>
+        </a>
+        <a href="/appointments.html">
+        <div class="grid-item">
+                <div class="grid-item-content">
+                    <div><img src="img/surgery.png" alt="surgery icon" width="145" height="145"/></div>
+                    <div style="padding-left: 50px">
+                        <h5>Surgeries</h5>
+                        <h1>4</h1>
+                    </div>
+                </div>
+        </div>
+        </a>
+        <div class="grid-item">
+            <div class="grid-item-content">
+                <div><img src="img/bed.png" alt="surgery icon" width="145" height="145"/></div>
+                <div style="padding-left: 50px">
+                    <h5>Beds</h5>
+                    <h1>25</h1>
+                </div>
+            </div>
+    </div>
+    </div>    
+    <div class="grid-container-chart">
+        <div class="grid-item-chart">
+            <img src="img/bars.png" alt="bar chart image"/>
+        </div>
+        <div class="grid-item-chart">
+            <img src="img/pie.png" alt="pie chart image" width="300"/>
+        </div>
+    </div>
 </body>
 </html>
